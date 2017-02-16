@@ -31,12 +31,11 @@ in the tweets with a common token- the number ‘2’. Next we align the case of
 Next we need to train the word vectors so as to capture the similarity between the words present in the tweets. I used the word2vec [7] model imple- mented by Gensim [8]. The list of tweets that was preprocessed is fed into the word2vec model to generate the word embedding for all the words in the bag of words. This trained model is then saved for future purpose. I am training my own vectors for these experiments, however there are pre trained vectors that are available as open source for general purpose use.
 The parameters used for training the vectors are minimum word count as 1, context window size of 10 words, number of parallel threads for train- ing the model is 4 and downsampling was 0.0001. The time taken to train the vectors for the target word depend directly on the size of the training data provided.
 #### Kernel Matrix -- Word2Vec
-![Main_Menu](01.jpeg ?raw=true =50x20)
-
+![Main_Menu](01.jpeg?raw=true =600x)
 [Source: http://www.anthology.aclweb.org/D/D15/D15-1116.pdf]
 #### Kernel Matrix -- Sentiment Flow
 Assuem $s$ and $s'$ are two sentiment flows of reviews, we defined their distance as 
-![02](2.jpeg ?raw=true =50x20)
+![02](2.jpeg?raw=true =600x)
 
 [Source: An Impact Analysis of Features in a Classification Approach to
 Irony Detection in Product Reviews]
