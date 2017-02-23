@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-@author: Chinmay Jain
-Main file used to create the execute the MVME algorithm
-"""
+
 from gensim.models import word2vec
 import numpy
 
